@@ -1,5 +1,3 @@
-# cosc-650-applied-llm-systems
-
 # Applied LLM Systems
 
 ## Purpose
