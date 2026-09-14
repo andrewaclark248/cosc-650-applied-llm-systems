@@ -1,0 +1,5 @@
+.env
+response_cache.json
+.hf_cache/
+__pycache__/
+.DS_Store
