@@ -1,0 +1,50 @@
+{"text": "Before deciding about a replacement, I'd like the blank reassignment paperwork.", "label": "document_request"}
+{"text": "Could our regular two-hour session happen in two one-hour blocks next week?", "label": "scheduling"}
+{"text": "Two withdrawals hit my account for one service period; please return the extra money.", "label": "billing"}
+{"text": "The session ended at noon, but the system thinks I stayed until evening. Repair that entry.", "label": "visit_verification"}
+{"text": "We want the caregiver from our earlier service period assigned again.", "label": "caregiver_assignment"}
+{"text": "The policy document arrived, but I still need the cancellation fee refunded.", "label": "billing"}
+{"text": "One completed session appears twice in the attendance system; merge the duplicate entries.", "label": "visit_verification"}
+{"text": "Our new aide is already assigned; I need written confirmation of that arrangement.", "label": "document_request"}
+{"text": "Switch the card used for future payments to my new one.", "label": "billing"}
+{"text": "We kept every appointment, yet there's a no-show penalty on the statement. Please correct it.", "label": "billing"}
+{"text": "I'm asking to book another appointment, not to get a copy of the schedule.", "label": "scheduling"}
+{"text": "Instead of the usual weekday rotation, arrange service only on weekends.", "label": "scheduling"}
+{"text": "The app works fine. I'd like its user instructions in a document I can print.", "label": "document_request"}
+{"text": "I was home for the visit. Please investigate the missed-visit charge, not the attendance log.", "label": "billing"}
+{"text": "Leave the fees alone; we need an aide who understands our household's language.", "label": "caregiver_assignment"}
+{"text": "My device lost its connection at arrival and never uploaded the check-in.", "label": "visit_verification"}
+{"text": "I won't need help while staying with family; take the next three visits off the calendar.", "label": "scheduling"}
+{"text": "Keep the visit days and lengths; find a worker who can communicate with Dad in Arabic.", "label": "caregiver_assignment"}
+{"text": "Can the temporary substitute stay as our regular worker after this month?", "label": "caregiver_assignment"}
+{"text": "The appointment time is settled. Who will be taking over the care visits?", "label": "caregiver_assignment"}
+{"text": "The aide changed but the agreed price didn't. Explain the higher rate charged.", "label": "billing"}
+{"text": "We aren't cancelling anything; email the written cancellation rules.", "label": "document_request"}
+{"text": "The visit happened as planned; its electronic status incorrectly says absent.", "label": "visit_verification"}
+{"text": "Dad's appointment at the clinic runs until lunch; make his home visit later that day.", "label": "scheduling"}
+{"text": "I have the reassignment form already; please replace the current aide.", "label": "caregiver_assignment"}
+{"text": "The attendance entry was fixed already. Now move the upcoming session back an hour.", "label": "scheduling"}
+{"text": "The attendance details are accurate. Export the completed visits for our records.", "label": "document_request"}
+{"text": "Can you provide the signed agreement from when we first enrolled?", "label": "document_request"}
+{"text": "My accountant needs the itemized service charges as a downloadable file; nothing needs correcting.", "label": "document_request"}
+{"text": "I submitted the closing signature, yet the visit still looks open.", "label": "visit_verification"}
+{"text": "The replacement worker did the shift, but the record still names the original aide. Fix the record.", "label": "visit_verification"}
+{"text": "Please attach proof of the payment that has already cleared.", "label": "document_request"}
+{"text": "We need someone confident helping with wheelchair transfers, on the existing schedule.", "label": "caregiver_assignment"}
+{"text": "I'm not changing the payment account today. Send the form required to do that later.", "label": "document_request"}
+{"text": "Our cat makes the current worker ill. Match us with another caregiver.", "label": "caregiver_assignment"}
+{"text": "Our usual aide moved away. Please choose someone to take over permanently.", "label": "caregiver_assignment"}
+{"text": "I accidentally ended the timer halfway through care and need the missing time restored.", "label": "visit_verification"}
+{"text": "We like our aide and want to keep her, but mornings no longer work for us.", "label": "scheduling"}
+{"text": "The scheduled time should remain unchanged; my actual start was entered incorrectly.", "label": "visit_verification"}
+{"text": "After the clock-out correction, the amount owed should have dropped. It hasn't.", "label": "billing"}
+{"text": "The office keeps rotating workers, and we'd like one familiar person assigned.", "label": "caregiver_assignment"}
+{"text": "You sent an invoice for a visit your office called off; I want that amount removed.", "label": "billing"}
+{"text": "We have agreed on the new times; send a printable calendar showing them.", "label": "document_request"}
+{"text": "What arrival window should I plan around for the upcoming appointment?", "label": "scheduling"}
+{"text": "Leave the payment arrangements alone and add a visit on the last Sunday this month.", "label": "scheduling"}
+{"text": "I have the receipt already; why is that payment absent from the balance?", "label": "billing"}
+{"text": "Please have the next visit finish before my ride arrives at eleven.", "label": "scheduling"}
+{"text": "I authenticated at the house, but the location service placed me across town.", "label": "visit_verification"}
+{"text": "Keep the invoice as it is. I only need the recorded departure corrected.", "label": "visit_verification"}
+{"text": "Can the remaining balance be spread across the next three months?", "label": "billing"}

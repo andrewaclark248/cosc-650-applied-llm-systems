@@ -1,0 +1,1302 @@
+[
+  {
+    "text": "Before deciding about a replacement, I'd like the blank reassignment paperwork.",
+    "correct_label": "document_request",
+    "zero_shot_prediction": "document_request",
+    "few_shot_prediction": "document_request",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "I need a copy of the renewal agreement before I sign it.",
+        "label": "document_request"
+      },
+      {
+        "text": "I'd like the procedure for requesting a new caregiver as a written handout.",
+        "label": "document_request"
+      },
+      {
+        "text": "I'd like a written copy of the cancellation policy.",
+        "label": "document_request"
+      },
+      {
+        "text": "I need a duplicate of the form I signed during intake.",
+        "label": "document_request"
+      }
+    ]
+  },
+  {
+    "text": "Could our regular two-hour session happen in two one-hour blocks next week?",
+    "correct_label": "scheduling",
+    "zero_shot_prediction": "scheduling",
+    "few_shot_prediction": "scheduling",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "Can we split tomorrow's four-hour appointment into two visits?",
+        "label": "scheduling"
+      },
+      {
+        "text": "I won't be home Tuesday, can we do Wednesday instead?",
+        "label": "scheduling"
+      },
+      {
+        "text": "We need an additional hour on our next scheduled visit.",
+        "label": "scheduling"
+      },
+      {
+        "text": "Add a second visit on Wednesday if there is an opening.",
+        "label": "scheduling"
+      }
+    ]
+  },
+  {
+    "text": "Two withdrawals hit my account for one service period; please return the extra money.",
+    "correct_label": "billing",
+    "zero_shot_prediction": "billing",
+    "few_shot_prediction": "billing",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "Please reverse the extra debit from yesterday.",
+        "label": "billing"
+      },
+      {
+        "text": "I need a refund for the payment taken after service ended.",
+        "label": "billing"
+      },
+      {
+        "text": "My refund hasn't reached my bank account yet.",
+        "label": "billing"
+      },
+      {
+        "text": "Can I pay this month's balance in two installments?",
+        "label": "billing"
+      }
+    ]
+  },
+  {
+    "text": "The session ended at noon, but the system thinks I stayed until evening. Repair that entry.",
+    "correct_label": "visit_verification",
+    "zero_shot_prediction": "visit_verification",
+    "few_shot_prediction": "visit_verification",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "The visit timer kept running after I went home.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "The recorded service duration includes my travel home; correct the end time.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "Can you confirm whether my clock-out was received?",
+        "label": "visit_verification"
+      },
+      {
+        "text": "I missed the check-in step and need to document my actual hours.",
+        "label": "visit_verification"
+      }
+    ]
+  },
+  {
+    "text": "We want the caregiver from our earlier service period assigned again.",
+    "correct_label": "caregiver_assignment",
+    "zero_shot_prediction": "caregiver_assignment",
+    "few_shot_prediction": "caregiver_assignment",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "Can you restore our previous caregiver assignment?",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "I'd like the procedure for requesting a new caregiver as a written handout.",
+        "label": "document_request"
+      },
+      {
+        "text": "Don't replace my caregiver; just shorten the Thursday appointment.",
+        "label": "scheduling"
+      },
+      {
+        "text": "Who is the caregiver assigned to our account?",
+        "label": "caregiver_assignment"
+      }
+    ]
+  },
+  {
+    "text": "The policy document arrived, but I still need the cancellation fee refunded.",
+    "correct_label": "billing",
+    "zero_shot_prediction": "billing",
+    "few_shot_prediction": "billing",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "I'd like a written copy of the cancellation policy.",
+        "label": "document_request"
+      },
+      {
+        "text": "I was charged a cancellation fee after the agency cancelled.",
+        "label": "billing"
+      },
+      {
+        "text": "I need a refund for the payment taken after service ended.",
+        "label": "billing"
+      },
+      {
+        "text": "Please send the current fee schedule document.",
+        "label": "document_request"
+      }
+    ]
+  },
+  {
+    "text": "One completed session appears twice in the attendance system; merge the duplicate entries.",
+    "correct_label": "visit_verification",
+    "zero_shot_prediction": "visit_verification",
+    "few_shot_prediction": "visit_verification",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "My attendance entry is duplicated in the visit history.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "The attendance record needs the correct employee attached.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "The visit log looks correct; please investigate the duplicate transaction.",
+        "label": "billing"
+      },
+      {
+        "text": "The clock-in is correct; please export the attendance report.",
+        "label": "document_request"
+      }
+    ]
+  },
+  {
+    "text": "Our new aide is already assigned; I need written confirmation of that arrangement.",
+    "correct_label": "document_request",
+    "zero_shot_prediction": "document_request",
+    "few_shot_prediction": "document_request",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "Please keep our usual aide instead of assigning the new person.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "Our regular worker retired; please introduce the next assigned aide.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "The assigned aide works well for us; arrange a different day for her visit.",
+        "label": "scheduling"
+      },
+      {
+        "text": "Please replace the aide assigned to my father.",
+        "label": "caregiver_assignment"
+      }
+    ]
+  },
+  {
+    "text": "Switch the card used for future payments to my new one.",
+    "correct_label": "billing",
+    "zero_shot_prediction": "billing",
+    "few_shot_prediction": "billing",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "My card was declined; can I use a different payment method?",
+        "label": "billing"
+      },
+      {
+        "text": "Please stop charging the card that has expired.",
+        "label": "billing"
+      },
+      {
+        "text": "No billing change is needed, just a correction to my clock-out.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "Please update the bank account used for automatic payments.",
+        "label": "billing"
+      }
+    ]
+  },
+  {
+    "text": "We kept every appointment, yet there's a no-show penalty on the statement. Please correct it.",
+    "correct_label": "billing",
+    "zero_shot_prediction": "billing",
+    "few_shot_prediction": "visit_verification",
+    "zero_shot_correct": true,
+    "few_shot_correct": false,
+    "retrieved_examples": [
+      {
+        "text": "Don't move the next appointment; update the attendance record for today's visit.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "The statement includes a visit we cancelled; remove that charge.",
+        "label": "billing"
+      },
+      {
+        "text": "Please remove the extra appointment booked for Sunday.",
+        "label": "scheduling"
+      },
+      {
+        "text": "The scheduled visits are right; it's the amount due that's wrong.",
+        "label": "billing"
+      }
+    ]
+  },
+  {
+    "text": "I'm asking to book another appointment, not to get a copy of the schedule.",
+    "correct_label": "scheduling",
+    "zero_shot_prediction": "scheduling",
+    "few_shot_prediction": "scheduling",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "The appointment overlaps with my dentist visit; please reschedule it.",
+        "label": "scheduling"
+      },
+      {
+        "text": "I need to cancel this week's Saturday appointment.",
+        "label": "scheduling"
+      },
+      {
+        "text": "Please remove the extra appointment booked for Sunday.",
+        "label": "scheduling"
+      },
+      {
+        "text": "I'd like a different person, with the current appointment times unchanged.",
+        "label": "caregiver_assignment"
+      }
+    ]
+  },
+  {
+    "text": "Instead of the usual weekday rotation, arrange service only on weekends.",
+    "correct_label": "scheduling",
+    "zero_shot_prediction": "scheduling",
+    "few_shot_prediction": "scheduling",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "We need to restart service on the first Monday of next month.",
+        "label": "scheduling"
+      },
+      {
+        "text": "I'd like recurring visits every other Friday.",
+        "label": "scheduling"
+      },
+      {
+        "text": "I want to reduce the weekly schedule from five days to three.",
+        "label": "scheduling"
+      },
+      {
+        "text": "Please remove the extra appointment booked for Sunday.",
+        "label": "scheduling"
+      }
+    ]
+  },
+  {
+    "text": "The app works fine. I'd like its user instructions in a document I can print.",
+    "correct_label": "document_request",
+    "zero_shot_prediction": "document_request",
+    "few_shot_prediction": "document_request",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "Can you send the instructions for using the visit-verification app?",
+        "label": "document_request"
+      },
+      {
+        "text": "I need a printable copy of the monthly service statement.",
+        "label": "document_request"
+      },
+      {
+        "text": "Where can I download the client consent form?",
+        "label": "document_request"
+      },
+      {
+        "text": "Where is the printable caregiver change request form?",
+        "label": "document_request"
+      }
+    ]
+  },
+  {
+    "text": "I was home for the visit. Please investigate the missed-visit charge, not the attendance log.",
+    "correct_label": "billing",
+    "zero_shot_prediction": "billing",
+    "few_shot_prediction": "billing",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "My attendance entry is duplicated in the visit history.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "My completed visit is showing as missed in the system.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "The visit log looks correct; please investigate the duplicate transaction.",
+        "label": "billing"
+      },
+      {
+        "text": "I think you charged me twice for the same visit.",
+        "label": "billing"
+      }
+    ]
+  },
+  {
+    "text": "Leave the fees alone; we need an aide who understands our household's language.",
+    "correct_label": "caregiver_assignment",
+    "zero_shot_prediction": "caregiver_assignment",
+    "few_shot_prediction": "caregiver_assignment",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "We need a worker who can understand my mother's limited English.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "We'd like an aide who is comfortable with our household routines.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "We need a caregiver trained to assist with transfers.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "Please replace the aide assigned to my father.",
+        "label": "caregiver_assignment"
+      }
+    ]
+  },
+  {
+    "text": "My device lost its connection at arrival and never uploaded the check-in.",
+    "correct_label": "visit_verification",
+    "zero_shot_prediction": "visit_verification",
+    "few_shot_prediction": "visit_verification",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "I used the telephone check-in, but it isn't appearing in the portal.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "The app did not save my arrival time this morning.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "There was no internet, so my departure never synchronized.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "Can you check whether my payment went through?",
+        "label": "billing"
+      }
+    ]
+  },
+  {
+    "text": "I won't need help while staying with family; take the next three visits off the calendar.",
+    "correct_label": "scheduling",
+    "zero_shot_prediction": "scheduling",
+    "few_shot_prediction": "scheduling",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "Keep the same aide and switch the visit to the evening.",
+        "label": "scheduling"
+      },
+      {
+        "text": "I don't want fewer visits; I want a different caregiver.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "My mother has therapy at noon, so book the aide after two.",
+        "label": "scheduling"
+      },
+      {
+        "text": "We will be away next week, so pause all visits until Monday.",
+        "label": "scheduling"
+      }
+    ]
+  },
+  {
+    "text": "Keep the visit days and lengths; find a worker who can communicate with Dad in Arabic.",
+    "correct_label": "caregiver_assignment",
+    "zero_shot_prediction": "caregiver_assignment",
+    "few_shot_prediction": "caregiver_assignment",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "I would prefer someone who speaks Arabic with my grandmother.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "We need a worker who can understand my mother's limited English.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "Please arrange for another employee to take over the existing visits.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "Keep the same aide and switch the visit to the evening.",
+        "label": "scheduling"
+      }
+    ]
+  },
+  {
+    "text": "Can the temporary substitute stay as our regular worker after this month?",
+    "correct_label": "caregiver_assignment",
+    "zero_shot_prediction": "caregiver_assignment",
+    "few_shot_prediction": "caregiver_assignment",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "Could you assign a backup worker while our regular aide is on leave?",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "Please change the assigned employee without changing the schedule.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "Don't replace my caregiver; just shorten the Thursday appointment.",
+        "label": "scheduling"
+      },
+      {
+        "text": "Can the aide come an hour earlier tomorrow?",
+        "label": "scheduling"
+      }
+    ]
+  },
+  {
+    "text": "The appointment time is settled. Who will be taking over the care visits?",
+    "correct_label": "caregiver_assignment",
+    "zero_shot_prediction": "caregiver_assignment",
+    "few_shot_prediction": "caregiver_assignment",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "Don't replace my caregiver; just shorten the Thursday appointment.",
+        "label": "scheduling"
+      },
+      {
+        "text": "I'd like a different person, with the current appointment times unchanged.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "Please arrange for another employee to take over the existing visits.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "Can we split tomorrow's four-hour appointment into two visits?",
+        "label": "scheduling"
+      }
+    ]
+  },
+  {
+    "text": "The aide changed but the agreed price didn't. Explain the higher rate charged.",
+    "correct_label": "billing",
+    "zero_shot_prediction": "billing",
+    "few_shot_prediction": "billing",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "The invoice total doesn't match the rate we agreed on.",
+        "label": "billing"
+      },
+      {
+        "text": "Why did the hourly rate increase this month?",
+        "label": "billing"
+      },
+      {
+        "text": "There are two different rates on the same week's bill.",
+        "label": "billing"
+      },
+      {
+        "text": "My caregiver was replaced; why is there a new charge?",
+        "label": "billing"
+      }
+    ]
+  },
+  {
+    "text": "We aren't cancelling anything; email the written cancellation rules.",
+    "correct_label": "document_request",
+    "zero_shot_prediction": "document_request",
+    "few_shot_prediction": "document_request",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "I'd like a written copy of the cancellation policy.",
+        "label": "document_request"
+      },
+      {
+        "text": "Need to cancel today, we're out of town.",
+        "label": "scheduling"
+      },
+      {
+        "text": "I was charged a cancellation fee after the agency cancelled.",
+        "label": "billing"
+      },
+      {
+        "text": "The statement includes a visit we cancelled; remove that charge.",
+        "label": "billing"
+      }
+    ]
+  },
+  {
+    "text": "The visit happened as planned; its electronic status incorrectly says absent.",
+    "correct_label": "visit_verification",
+    "zero_shot_prediction": "visit_verification",
+    "few_shot_prediction": "visit_verification",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "My completed visit is showing as missed in the system.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "Please reconcile the offline check-in with the existing visit entry.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "My supervisor approved the visit, yet its status is still unverified.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "I entered the wrong service date in the visit log.",
+        "label": "visit_verification"
+      }
+    ]
+  },
+  {
+    "text": "Dad's appointment at the clinic runs until lunch; make his home visit later that day.",
+    "correct_label": "scheduling",
+    "zero_shot_prediction": "scheduling",
+    "few_shot_prediction": "scheduling",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "My mother has therapy at noon, so book the aide after two.",
+        "label": "scheduling"
+      },
+      {
+        "text": "Can we split tomorrow's four-hour appointment into two visits?",
+        "label": "scheduling"
+      },
+      {
+        "text": "Don't replace my caregiver; just shorten the Thursday appointment.",
+        "label": "scheduling"
+      },
+      {
+        "text": "Keep the same aide and switch the visit to the evening.",
+        "label": "scheduling"
+      }
+    ]
+  },
+  {
+    "text": "I have the reassignment form already; please replace the current aide.",
+    "correct_label": "caregiver_assignment",
+    "zero_shot_prediction": "caregiver_assignment",
+    "few_shot_prediction": "caregiver_assignment",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "Please replace the aide assigned to my father.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "Please keep our usual aide instead of assigning the new person.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "Need a new aide please, same hours as before.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "Our regular worker retired; please introduce the next assigned aide.",
+        "label": "caregiver_assignment"
+      }
+    ]
+  },
+  {
+    "text": "The attendance entry was fixed already. Now move the upcoming session back an hour.",
+    "correct_label": "scheduling",
+    "zero_shot_prediction": "scheduling",
+    "few_shot_prediction": "scheduling",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "My attendance entry is duplicated in the visit history.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "The clock-in is correct; please export the attendance report.",
+        "label": "document_request"
+      },
+      {
+        "text": "Don't move the next appointment; update the attendance record for today's visit.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "The attendance record needs the correct employee attached.",
+        "label": "visit_verification"
+      }
+    ]
+  },
+  {
+    "text": "The attendance details are accurate. Export the completed visits for our records.",
+    "correct_label": "document_request",
+    "zero_shot_prediction": "visit_verification",
+    "few_shot_prediction": "document_request",
+    "zero_shot_correct": false,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "The clock-in is correct; please export the attendance report.",
+        "label": "document_request"
+      },
+      {
+        "text": "The attendance record needs the correct employee attached.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "My attendance entry is duplicated in the visit history.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "Don't move the next appointment; update the attendance record for today's visit.",
+        "label": "visit_verification"
+      }
+    ]
+  },
+  {
+    "text": "Can you provide the signed agreement from when we first enrolled?",
+    "correct_label": "document_request",
+    "zero_shot_prediction": "document_request",
+    "few_shot_prediction": "document_request",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "Please provide the completed enrollment paperwork.",
+        "label": "document_request"
+      },
+      {
+        "text": "I need a copy of the renewal agreement before I sign it.",
+        "label": "document_request"
+      },
+      {
+        "text": "Please send me a copy of my service agreement.",
+        "label": "document_request"
+      },
+      {
+        "text": "Can I get a copy of the authorization form?",
+        "label": "document_request"
+      }
+    ]
+  },
+  {
+    "text": "My accountant needs the itemized service charges as a downloadable file; nothing needs correcting.",
+    "correct_label": "document_request",
+    "zero_shot_prediction": "billing",
+    "few_shot_prediction": "document_request",
+    "zero_shot_correct": false,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "I'm not disputing the bill; I just need a copy for my accountant.",
+        "label": "document_request"
+      },
+      {
+        "text": "Please check the tax listed on my service charge.",
+        "label": "billing"
+      },
+      {
+        "text": "Send the itemized invoice; no correction or refund is being requested.",
+        "label": "document_request"
+      },
+      {
+        "text": "I don't need a copy of the invoice, just an explanation of the extra fee.",
+        "label": "billing"
+      }
+    ]
+  },
+  {
+    "text": "I submitted the closing signature, yet the visit still looks open.",
+    "correct_label": "visit_verification",
+    "zero_shot_prediction": "visit_verification",
+    "few_shot_prediction": "visit_verification",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "The client's signature disappeared from the completed visit entry.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "My visit verification is pending after I submitted the required signature.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "My supervisor approved the visit, yet its status is still unverified.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "I cannot close today's visit because the verification screen freezes.",
+        "label": "visit_verification"
+      }
+    ]
+  },
+  {
+    "text": "The replacement worker did the shift, but the record still names the original aide. Fix the record.",
+    "correct_label": "visit_verification",
+    "zero_shot_prediction": "visit_verification",
+    "few_shot_prediction": "visit_verification",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "The attendance record needs the correct employee attached.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "Please replace the aide assigned to my father.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "Our regular worker retired; please introduce the next assigned aide.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "My father is uncomfortable with the current aide, so please reassign him.",
+        "label": "caregiver_assignment"
+      }
+    ]
+  },
+  {
+    "text": "Please attach proof of the payment that has already cleared.",
+    "correct_label": "document_request",
+    "zero_shot_prediction": "billing",
+    "few_shot_prediction": "document_request",
+    "zero_shot_correct": false,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "Please update the bank account used for automatic payments.",
+        "label": "billing"
+      },
+      {
+        "text": "Could you provide last year's payment receipts?",
+        "label": "document_request"
+      },
+      {
+        "text": "I need a receipt for the payment I made yesterday.",
+        "label": "document_request"
+      },
+      {
+        "text": "Please apply the credit from last month to this invoice.",
+        "label": "billing"
+      }
+    ]
+  },
+  {
+    "text": "We need someone confident helping with wheelchair transfers, on the existing schedule.",
+    "correct_label": "caregiver_assignment",
+    "zero_shot_prediction": "caregiver_assignment",
+    "few_shot_prediction": "caregiver_assignment",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "Please assign an aide with experience supporting wheelchair users.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "We need a caregiver trained to assist with transfers.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "We'd like an aide who is comfortable with our household routines.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "I want to request the aide who helped us last month.",
+        "label": "caregiver_assignment"
+      }
+    ]
+  },
+  {
+    "text": "I'm not changing the payment account today. Send the form required to do that later.",
+    "correct_label": "document_request",
+    "zero_shot_prediction": "document_request",
+    "few_shot_prediction": "document_request",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "Please update the bank account used for automatic payments.",
+        "label": "billing"
+      },
+      {
+        "text": "I want the direct-deposit form, not a change to my bank details yet.",
+        "label": "document_request"
+      },
+      {
+        "text": "No billing change is needed, just a correction to my clock-out.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "You applied my payment to the wrong month.",
+        "label": "billing"
+      }
+    ]
+  },
+  {
+    "text": "Our cat makes the current worker ill. Match us with another caregiver.",
+    "correct_label": "caregiver_assignment",
+    "zero_shot_prediction": "caregiver_assignment",
+    "few_shot_prediction": "caregiver_assignment",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "The assigned worker is allergic to our cat; find another person.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "Our caregiver cannot help with our household's needs; we need a replacement.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "Don't replace my caregiver; just shorten the Thursday appointment.",
+        "label": "scheduling"
+      },
+      {
+        "text": "I don't want fewer visits; I want a different caregiver.",
+        "label": "caregiver_assignment"
+      }
+    ]
+  },
+  {
+    "text": "Our usual aide moved away. Please choose someone to take over permanently.",
+    "correct_label": "caregiver_assignment",
+    "zero_shot_prediction": "caregiver_assignment",
+    "few_shot_prediction": "caregiver_assignment",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "Our current aide is leaving; who will take over?",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "Please keep our usual aide instead of assigning the new person.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "Please replace the aide assigned to my father.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "My father is uncomfortable with the current aide, so please reassign him.",
+        "label": "caregiver_assignment"
+      }
+    ]
+  },
+  {
+    "text": "I accidentally ended the timer halfway through care and need the missing time restored.",
+    "correct_label": "visit_verification",
+    "zero_shot_prediction": "visit_verification",
+    "few_shot_prediction": "visit_verification",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "I clocked out by mistake and need to record the rest of the same visit.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "Clock out didnt save can someone fix it?",
+        "label": "visit_verification"
+      },
+      {
+        "text": "Can you restore our previous caregiver assignment?",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "I missed the check-in step and need to document my actual hours.",
+        "label": "visit_verification"
+      }
+    ]
+  },
+  {
+    "text": "We like our aide and want to keep her, but mornings no longer work for us.",
+    "correct_label": "scheduling",
+    "zero_shot_prediction": "scheduling",
+    "few_shot_prediction": "scheduling",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "The assigned aide works well for us; arrange a different day for her visit.",
+        "label": "scheduling"
+      },
+      {
+        "text": "My mother has therapy at noon, so book the aide after two.",
+        "label": "scheduling"
+      },
+      {
+        "text": "The replacement aide is a good fit; can she become our regular caregiver?",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "Keep the same aide and switch the visit to the evening.",
+        "label": "scheduling"
+      }
+    ]
+  },
+  {
+    "text": "The scheduled time should remain unchanged; my actual start was entered incorrectly.",
+    "correct_label": "visit_verification",
+    "zero_shot_prediction": "visit_verification",
+    "few_shot_prediction": "visit_verification",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "The schedule is correct; please fix the actual arrival time.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "The recorded service duration includes my travel home; correct the end time.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "I entered the wrong service date in the visit log.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "Could you change our regular start time from nine to ten?",
+        "label": "scheduling"
+      }
+    ]
+  },
+  {
+    "text": "After the clock-out correction, the amount owed should have dropped. It hasn't.",
+    "correct_label": "billing",
+    "zero_shot_prediction": "billing",
+    "few_shot_prediction": "billing",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "The clock-out was corrected, but the invoice still has the old amount.",
+        "label": "billing"
+      },
+      {
+        "text": "No billing change is needed, just a correction to my clock-out.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "You applied my payment to the wrong month.",
+        "label": "billing"
+      },
+      {
+        "text": "The invoice total doesn't match the rate we agreed on.",
+        "label": "billing"
+      }
+    ]
+  },
+  {
+    "text": "The office keeps rotating workers, and we'd like one familiar person assigned.",
+    "correct_label": "caregiver_assignment",
+    "zero_shot_prediction": "caregiver_assignment",
+    "few_shot_prediction": "caregiver_assignment",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "Our regular worker retired; please introduce the next assigned aide.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "Please keep our usual aide instead of assigning the new person.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "I'd like a different person, with the current appointment times unchanged.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "Please change the assigned employee without changing the schedule.",
+        "label": "caregiver_assignment"
+      }
+    ]
+  },
+  {
+    "text": "You sent an invoice for a visit your office called off; I want that amount removed.",
+    "correct_label": "billing",
+    "zero_shot_prediction": "billing",
+    "few_shot_prediction": "billing",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "Send the itemized invoice; no correction or refund is being requested.",
+        "label": "document_request"
+      },
+      {
+        "text": "The statement includes a visit we cancelled; remove that charge.",
+        "label": "billing"
+      },
+      {
+        "text": "The clock-out was corrected, but the invoice still has the old amount.",
+        "label": "billing"
+      },
+      {
+        "text": "The invoice total doesn't match the rate we agreed on.",
+        "label": "billing"
+      }
+    ]
+  },
+  {
+    "text": "We have agreed on the new times; send a printable calendar showing them.",
+    "correct_label": "document_request",
+    "zero_shot_prediction": "document_request",
+    "few_shot_prediction": "document_request",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "We need an additional hour on our next scheduled visit.",
+        "label": "scheduling"
+      },
+      {
+        "text": "I don't want to change visits, only obtain the weekly calendar as a PDF.",
+        "label": "document_request"
+      },
+      {
+        "text": "The bill is correct; please change next month's visit dates.",
+        "label": "scheduling"
+      },
+      {
+        "text": "Please shift all of this week's visits forward by one day.",
+        "label": "scheduling"
+      }
+    ]
+  },
+  {
+    "text": "What arrival window should I plan around for the upcoming appointment?",
+    "correct_label": "scheduling",
+    "zero_shot_prediction": "scheduling",
+    "few_shot_prediction": "scheduling",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "Don't move the next appointment; update the attendance record for today's visit.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "Can we split tomorrow's four-hour appointment into two visits?",
+        "label": "scheduling"
+      },
+      {
+        "text": "The appointment overlaps with my dentist visit; please reschedule it.",
+        "label": "scheduling"
+      },
+      {
+        "text": "The schedule is correct; please fix the actual arrival time.",
+        "label": "visit_verification"
+      }
+    ]
+  },
+  {
+    "text": "Leave the payment arrangements alone and add a visit on the last Sunday this month.",
+    "correct_label": "scheduling",
+    "zero_shot_prediction": "scheduling",
+    "few_shot_prediction": "scheduling",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "Can we arrange a weekend visit this month?",
+        "label": "scheduling"
+      },
+      {
+        "text": "Please arrange for another employee to take over the existing visits.",
+        "label": "caregiver_assignment"
+      },
+      {
+        "text": "You applied my payment to the wrong month.",
+        "label": "billing"
+      },
+      {
+        "text": "The bill is correct; please change next month's visit dates.",
+        "label": "scheduling"
+      }
+    ]
+  },
+  {
+    "text": "I have the receipt already; why is that payment absent from the balance?",
+    "correct_label": "billing",
+    "zero_shot_prediction": "billing",
+    "few_shot_prediction": "billing",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "I need a receipt for the payment I made yesterday.",
+        "label": "document_request"
+      },
+      {
+        "text": "I paid cash, but my account still shows an unpaid balance.",
+        "label": "billing"
+      },
+      {
+        "text": "The new invoice has a balance carried forward that I don't recognize.",
+        "label": "billing"
+      },
+      {
+        "text": "Our insurance payment is missing from the account balance.",
+        "label": "billing"
+      }
+    ]
+  },
+  {
+    "text": "Please have the next visit finish before my ride arrives at eleven.",
+    "correct_label": "scheduling",
+    "zero_shot_prediction": "scheduling",
+    "few_shot_prediction": "scheduling",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "Please extend Friday's visit by thirty minutes.",
+        "label": "scheduling"
+      },
+      {
+        "text": "Put me down for a morning visit next Tuesday.",
+        "label": "scheduling"
+      },
+      {
+        "text": "We need an additional hour on our next scheduled visit.",
+        "label": "scheduling"
+      },
+      {
+        "text": "Please mark the visit complete; I already provided the care.",
+        "label": "visit_verification"
+      }
+    ]
+  },
+  {
+    "text": "I authenticated at the house, but the location service placed me across town.",
+    "correct_label": "visit_verification",
+    "zero_shot_prediction": "visit_verification",
+    "few_shot_prediction": "visit_verification",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "The location check rejected me even though I was at the client's house.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "My GPS pin is on the neighboring street and won't verify attendance.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "The recorded service duration includes my travel home; correct the end time.",
+        "label": "visit_verification"
+      },
+      {
+        "text": "I entered the wrong service date in the visit log.",
+        "label": "visit_verification"
+      }
+    ]
+  },
+  {
+    "text": "Keep the invoice as it is. I only need the recorded departure corrected.",
+    "correct_label": "visit_verification",
+    "zero_shot_prediction": "visit_verification",
+    "few_shot_prediction": "visit_verification",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "Send the itemized invoice; no correction or refund is being requested.",
+        "label": "document_request"
+      },
+      {
+        "text": "The clock-out was corrected, but the invoice still has the old amount.",
+        "label": "billing"
+      },
+      {
+        "text": "The new invoice has a balance carried forward that I don't recognize.",
+        "label": "billing"
+      },
+      {
+        "text": "I don't need a copy of the invoice, just an explanation of the extra fee.",
+        "label": "billing"
+      }
+    ]
+  },
+  {
+    "text": "Can the remaining balance be spread across the next three months?",
+    "correct_label": "billing",
+    "zero_shot_prediction": "billing",
+    "few_shot_prediction": "billing",
+    "zero_shot_correct": true,
+    "few_shot_correct": true,
+    "retrieved_examples": [
+      {
+        "text": "Can I pay this month's balance in two installments?",
+        "label": "billing"
+      },
+      {
+        "text": "Can we arrange a payment plan for the outstanding balance?",
+        "label": "billing"
+      },
+      {
+        "text": "The new invoice has a balance carried forward that I don't recognize.",
+        "label": "billing"
+      },
+      {
+        "text": "I'd like to pay the balance over the phone.",
+        "label": "billing"
+      }
+    ]
+  }
+]
