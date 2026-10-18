@@ -1,0 +1,68 @@
+{
+  "source": "AI-generated synthetic home-care requests.",
+  "human_label_review": "Completed",
+  "filtering": "Remove invalid fields/types, blank text, and unsupported labels; normalize whitespace.",
+  "deduplication": "Compare inputs after case and whitespace normalization. Semantic near-duplicates require separate review.",
+  "tokenizer": "cl100k_base; proxy for Gemini token lengths",
+  "training": {
+    "raw_count": 200,
+    "clean_count": 200,
+    "removed_by_reason": {},
+    "conflicting_labels": [],
+    "removed_train_eval_overlap": 0,
+    "label_balance": {
+      "scheduling": 40,
+      "billing": 40,
+      "document_request": 40,
+      "visit_verification": 40,
+      "caregiver_assignment": 40
+    },
+    "token_lengths": {
+      "min": 7,
+      "mean": 11.46,
+      "median": 11.0,
+      "p95": 15.05,
+      "max": 18,
+      "distribution": {
+        "1_to_10": 72,
+        "11_to_20": 128,
+        "21_to_30": 0,
+        "31_plus": 0
+      }
+    },
+    "format_consistent": true
+  },
+  "evaluation": {
+    "raw_count": 50,
+    "clean_count": 50,
+    "removed_by_reason": {},
+    "conflicting_labels": [],
+    "label_balance": {
+      "document_request": 10,
+      "scheduling": 10,
+      "billing": 10,
+      "visit_verification": 10,
+      "caregiver_assignment": 10
+    },
+    "token_lengths": {
+      "min": 11,
+      "mean": 15.26,
+      "median": 15.0,
+      "p95": 19.55,
+      "max": 20,
+      "distribution": {
+        "1_to_10": 0,
+        "11_to_20": 50,
+        "21_to_30": 0,
+        "31_plus": 0
+      }
+    },
+    "format_consistent": true
+  },
+  "validation": {
+    "minimum_train_size_met": true,
+    "minimum_eval_size_met": true,
+    "remaining_train_eval_overlap": 0,
+    "no_conflicting_labels": true
+  }
+}

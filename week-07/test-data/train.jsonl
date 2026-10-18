@@ -1,0 +1,200 @@
+{"text": "I want to reduce the weekly schedule from five days to three.", "label": "scheduling"}
+{"text": "We will be away next week, so pause all visits until Monday.", "label": "scheduling"}
+{"text": "Please explain the weekend surcharge on my invoice.", "label": "billing"}
+{"text": "I'd like a written copy of the cancellation policy.", "label": "document_request"}
+{"text": "The app did not save my arrival time this morning.", "label": "visit_verification"}
+{"text": "The schedule is correct; please fix the actual arrival time.", "label": "visit_verification"}
+{"text": "Can we have a caregiver who speaks Spanish?", "label": "caregiver_assignment"}
+{"text": "The schedule change is resolved; I still need someone who speaks Polish.", "label": "caregiver_assignment"}
+{"text": "Keep the same aide and switch the visit to the evening.", "label": "scheduling"}
+{"text": "I paid cash, but my account still shows an unpaid balance.", "label": "billing"}
+{"text": "Please replace the aide assigned to my father.", "label": "caregiver_assignment"}
+{"text": "My phone died before I could record the end of the visit.", "label": "visit_verification"}
+{"text": "Could you change our regular start time from nine to ten?", "label": "scheduling"}
+{"text": "What is the due date for this bill?", "label": "billing"}
+{"text": "There are two different rates on the same week's bill.", "label": "billing"}
+{"text": "Add a second visit on Wednesday if there is an opening.", "label": "scheduling"}
+{"text": "Please remove an accidental check-in made before I arrived.", "label": "visit_verification"}
+{"text": "The app recorded yesterday's shift as happening today.", "label": "visit_verification"}
+{"text": "Please book an initial home visit for next week.", "label": "scheduling"}
+{"text": "Can u send the contract again? Lost my copy.", "label": "document_request"}
+{"text": "I clocked out by mistake and need to record the rest of the same visit.", "label": "visit_verification"}
+{"text": "Could the next appointment start after school pickup?", "label": "scheduling"}
+{"text": "The assigned worker is allergic to our cat; find another person.", "label": "caregiver_assignment"}
+{"text": "Can the aide come an hour earlier tomorrow?", "label": "scheduling"}
+{"text": "We need an additional hour on our next scheduled visit.", "label": "scheduling"}
+{"text": "Please reverse the extra debit from yesterday.", "label": "billing"}
+{"text": "Can you put the cancelled visit back on the calendar?", "label": "scheduling"}
+{"text": "Please reconcile the offline check-in with the existing visit entry.", "label": "visit_verification"}
+{"text": "I'd like the procedure for requesting a new caregiver as a written handout.", "label": "document_request"}
+{"text": "Can you tell us whether the proposed caregiver has transfer-assistance training?", "label": "caregiver_assignment"}
+{"text": "The attendance record needs the correct employee attached.", "label": "visit_verification"}
+{"text": "The clock-in is correct; please export the attendance report.", "label": "document_request"}
+{"text": "We need an aide comfortable working around a large dog.", "label": "caregiver_assignment"}
+{"text": "I'm not disputing the bill; I just need a copy for my accountant.", "label": "document_request"}
+{"text": "I'd like a copy of the holiday service policy.", "label": "document_request"}
+{"text": "Our caregiver cannot help with our household's needs; we need a replacement.", "label": "caregiver_assignment"}
+{"text": "Where is the printable caregiver change request form?", "label": "document_request"}
+{"text": "I need a copy of the renewal agreement before I sign it.", "label": "document_request"}
+{"text": "Does the quoted price include holiday visits?", "label": "billing"}
+{"text": "Please update the bank account used for automatic payments.", "label": "billing"}
+{"text": "Need to cancel today, we're out of town.", "label": "scheduling"}
+{"text": "Please send the current fee schedule document.", "label": "document_request"}
+{"text": "Please move my Tuesday visit to Thursday afternoon.", "label": "scheduling"}
+{"text": "I would prefer someone who speaks Arabic with my grandmother.", "label": "caregiver_assignment"}
+{"text": "Can I pay this month's balance in two installments?", "label": "billing"}
+{"text": "You applied my payment to the wrong month.", "label": "billing"}
+{"text": "My completed visit is showing as missed in the system.", "label": "visit_verification"}
+{"text": "Please assign an aide with experience supporting wheelchair users.", "label": "caregiver_assignment"}
+{"text": "The QR check-in failed at the client's front door.", "label": "visit_verification"}
+{"text": "The visit record says I left early, but I stayed until the end.", "label": "visit_verification"}
+{"text": "Our current aide is leaving; who will take over?", "label": "caregiver_assignment"}
+{"text": "Please provide the completed enrollment paperwork.", "label": "document_request"}
+{"text": "No billing change is needed, just a correction to my clock-out.", "label": "visit_verification"}
+{"text": "Please provide a blank release-of-information form.", "label": "document_request"}
+{"text": "The visit times are fine, but we prefer someone with more experience.", "label": "caregiver_assignment"}
+{"text": "I don't need a copy of the invoice, just an explanation of the extra fee.", "label": "billing"}
+{"text": "I don't want to change visits, only obtain the weekly calendar as a PDF.", "label": "document_request"}
+{"text": "Can we arrange a payment plan for the outstanding balance?", "label": "billing"}
+{"text": "The invoice total doesn't match the rate we agreed on.", "label": "billing"}
+{"text": "Can you confirm whether my clock-out was received?", "label": "visit_verification"}
+{"text": "Please provide a copy of our current care plan.", "label": "document_request"}
+{"text": "I entered the wrong service date in the visit log.", "label": "visit_verification"}
+{"text": "Where can I download the client consent form?", "label": "document_request"}
+{"text": "I won't be home Tuesday, can we do Wednesday instead?", "label": "scheduling"}
+{"text": "I was billed for four hours, but we purchased only two.", "label": "billing"}
+{"text": "The app says I am still on duty, but I finished two hours ago.", "label": "visit_verification"}
+{"text": "Can you restore our previous caregiver assignment?", "label": "caregiver_assignment"}
+{"text": "Can we arrange a weekend visit this month?", "label": "scheduling"}
+{"text": "I used the telephone check-in, but it isn't appearing in the portal.", "label": "visit_verification"}
+{"text": "I was charged a cancellation fee after the agency cancelled.", "label": "billing"}
+{"text": "Our insurance payment is missing from the account balance.", "label": "billing"}
+{"text": "Please supply a written statement of services received.", "label": "document_request"}
+{"text": "We need a worker who can understand my mother's limited English.", "label": "caregiver_assignment"}
+{"text": "I accidentally clocked in twice for one appointment.", "label": "visit_verification"}
+{"text": "Is there an available visit slot before eight in the morning?", "label": "scheduling"}
+{"text": "Could you assign a backup worker while our regular aide is on leave?", "label": "caregiver_assignment"}
+{"text": "The client's signature disappeared from the completed visit entry.", "label": "visit_verification"}
+{"text": "I need a printable copy of the monthly service statement.", "label": "document_request"}
+{"text": "The recorded service duration includes my travel home; correct the end time.", "label": "visit_verification"}
+{"text": "How much do I currently owe?", "label": "billing"}
+{"text": "My caregiver was replaced; why is there a new charge?", "label": "billing"}
+{"text": "I need to cancel this week's Saturday appointment.", "label": "scheduling"}
+{"text": "Please mark the visit complete; I already provided the care.", "label": "visit_verification"}
+{"text": "Why did the hourly rate increase this month?", "label": "billing"}
+{"text": "Can you assign someone experienced with dementia care?", "label": "caregiver_assignment"}
+{"text": "We prefer a female caregiver if one is available.", "label": "caregiver_assignment"}
+{"text": "Please resend the attachment containing our signed contract.", "label": "document_request"}
+{"text": "Send the itemized invoice; no correction or refund is being requested.", "label": "document_request"}
+{"text": "The assigned aide works well for us; arrange a different day for her visit.", "label": "scheduling"}
+{"text": "The appointment overlaps with my dentist visit; please reschedule it.", "label": "scheduling"}
+{"text": "My visit verification is pending after I submitted the required signature.", "label": "visit_verification"}
+{"text": "I need the agency's grievance policy in writing.", "label": "document_request"}
+{"text": "The check-in button gives an error when I tap it.", "label": "visit_verification"}
+{"text": "I need to dispute a charge for a missed appointment.", "label": "billing"}
+{"text": "Could you email the blank intake form?", "label": "document_request"}
+{"text": "I need a receipt for the payment I made yesterday.", "label": "document_request"}
+{"text": "Please extend Friday's visit by thirty minutes.", "label": "scheduling"}
+{"text": "The clock-out was corrected, but the invoice still has the old amount.", "label": "billing"}
+{"text": "Can I get a copy of the authorization form?", "label": "document_request"}
+{"text": "I'd like a different person, with the current appointment times unchanged.", "label": "caregiver_assignment"}
+{"text": "Please send the signed acknowledgment from our first visit.", "label": "document_request"}
+{"text": "I need a refund for the payment taken after service ended.", "label": "billing"}
+{"text": "Please approve a manual entry for yesterday's completed shift.", "label": "visit_verification"}
+{"text": "I don't want fewer visits; I want a different caregiver.", "label": "caregiver_assignment"}
+{"text": "I think you charged me twice for the same visit.", "label": "billing"}
+{"text": "I selected the wrong appointment when recording my visit.", "label": "visit_verification"}
+{"text": "Can you send a copy of the privacy notice?", "label": "document_request"}
+{"text": "I'd like to pay the balance over the phone.", "label": "billing"}
+{"text": "Please check the tax listed on my service charge.", "label": "billing"}
+{"text": "My GPS pin is on the neighboring street and won't verify attendance.", "label": "visit_verification"}
+{"text": "I would like the same caregiver for every visit.", "label": "caregiver_assignment"}
+{"text": "The location check rejected me even though I was at the client's house.", "label": "visit_verification"}
+{"text": "What time is my caregiver scheduled to arrive today?", "label": "scheduling"}
+{"text": "Can you send the instructions for using the visit-verification app?", "label": "document_request"}
+{"text": "Please assign someone who can communicate using sign language.", "label": "caregiver_assignment"}
+{"text": "I'd like recurring visits every other Friday.", "label": "scheduling"}
+{"text": "The statement includes a visit we cancelled; remove that charge.", "label": "billing"}
+{"text": "The electronic visit record has my start and end times reversed.", "label": "visit_verification"}
+{"text": "Please leave a gap between lunch and the afternoon visit.", "label": "scheduling"}
+{"text": "Can you check whether my payment went through?", "label": "billing"}
+{"text": "The scheduled visits are right; it's the amount due that's wrong.", "label": "billing"}
+{"text": "We'd like an aide who is comfortable with our household routines.", "label": "caregiver_assignment"}
+{"text": "Can you email our latest assessment document?", "label": "document_request"}
+{"text": "The new invoice has a balance carried forward that I don't recognize.", "label": "billing"}
+{"text": "Please arrange for another employee to take over the existing visits.", "label": "caregiver_assignment"}
+{"text": "I need the emergency contact form to fill out.", "label": "document_request"}
+{"text": "Please provide written confirmation of our caregiver's assignment.", "label": "document_request"}
+{"text": "The visit timer kept running after I went home.", "label": "visit_verification"}
+{"text": "Please stop sending different people each week.", "label": "caregiver_assignment"}
+{"text": "The hours work for us, but the caregiver match does not.", "label": "caregiver_assignment"}
+{"text": "Can we split tomorrow's four-hour appointment into two visits?", "label": "scheduling"}
+{"text": "Please stop charging the card that has expired.", "label": "billing"}
+{"text": "Our regular worker retired; please introduce the next assigned aide.", "label": "caregiver_assignment"}
+{"text": "Can you explain why insurance did not cover last week's services?", "label": "billing"}
+{"text": "Why am i getting charged again? I already paid.", "label": "billing"}
+{"text": "Yesterday's arrival appears under the wrong client.", "label": "visit_verification"}
+{"text": "Clock out didnt save can someone fix it?", "label": "visit_verification"}
+{"text": "Don't move the next appointment; update the attendance record for today's visit.", "label": "visit_verification"}
+{"text": "I forgot to clock out when my shift ended.", "label": "visit_verification"}
+{"text": "I missed the check-in step and need to document my actual hours.", "label": "visit_verification"}
+{"text": "We need a caregiver trained to assist with transfers.", "label": "caregiver_assignment"}
+{"text": "I want to request the aide who helped us last month.", "label": "caregiver_assignment"}
+{"text": "Please apply the credit from last month to this invoice.", "label": "billing"}
+{"text": "I need the visit history for my records.", "label": "document_request"}
+{"text": "Could you provide last year's payment receipts?", "label": "document_request"}
+{"text": "Could someone confirm whether we have a visit on the holiday?", "label": "scheduling"}
+{"text": "Can you find an aide experienced with visual impairments?", "label": "caregiver_assignment"}
+{"text": "I want the direct-deposit form, not a change to my bank details yet.", "label": "document_request"}
+{"text": "There was no internet, so my departure never synchronized.", "label": "visit_verification"}
+{"text": "There is a late fee even though I paid on time.", "label": "billing"}
+{"text": "Need a new aide please, same hours as before.", "label": "caregiver_assignment"}
+{"text": "The aide cannot manage the stairs here; please assign someone else.", "label": "caregiver_assignment"}
+{"text": "Please shift all of this week's visits forward by one day.", "label": "scheduling"}
+{"text": "My card was declined; can I use a different payment method?", "label": "billing"}
+{"text": "The replacement aide is a good fit; can she become our regular caregiver?", "label": "caregiver_assignment"}
+{"text": "The visit log looks correct; please investigate the duplicate transaction.", "label": "billing"}
+{"text": "Can you provide a consistent backup rather than a new aide each time?", "label": "caregiver_assignment"}
+{"text": "Don't replace my caregiver; just shorten the Thursday appointment.", "label": "scheduling"}
+{"text": "Who is the caregiver assigned to our account?", "label": "caregiver_assignment"}
+{"text": "Move tomorrows visit to 3 pm please.", "label": "scheduling"}
+{"text": "Can you send documentation confirming that service has ended?", "label": "document_request"}
+{"text": "My refund hasn't reached my bank account yet.", "label": "billing"}
+{"text": "Please avoid booking visits during our religious service.", "label": "scheduling"}
+{"text": "We would like a caregiver who is comfortable preparing vegetarian meals.", "label": "caregiver_assignment"}
+{"text": "Put me down for a morning visit next Tuesday.", "label": "scheduling"}
+{"text": "Will I be charged if I cancel a visit the day before?", "label": "billing"}
+{"text": "Please send a PDF of the approved weekly visit plan.", "label": "document_request"}
+{"text": "Please provide the document listing the agency's contact information.", "label": "document_request"}
+{"text": "Could you send the caregiver orientation checklist?", "label": "document_request"}
+{"text": "Our family wants to discuss a better caregiver match.", "label": "caregiver_assignment"}
+{"text": "I need a duplicate of the form I signed during intake.", "label": "document_request"}
+{"text": "Could you resend the missing pages of the enrollment packet?", "label": "document_request"}
+{"text": "Please send me a copy of my service agreement.", "label": "document_request"}
+{"text": "I need last month's invoices as PDF files.", "label": "document_request"}
+{"text": "Please tell me which payment methods you accept.", "label": "billing"}
+{"text": "The clock-in is accurate, but the next visit needs a new time.", "label": "scheduling"}
+{"text": "My father is uncomfortable with the current aide, so please reassign him.", "label": "caregiver_assignment"}
+{"text": "I received the calendar, but Monday should be a day off.", "label": "scheduling"}
+{"text": "The departure time was saved in the wrong time zone.", "label": "visit_verification"}
+{"text": "Please change the assigned employee without changing the schedule.", "label": "caregiver_assignment"}
+{"text": "I need coverage this evening; can you add a visit?", "label": "scheduling"}
+{"text": "Could you waive the fee added to my overdue account?", "label": "billing"}
+{"text": "We need to restart service on the first Monday of next month.", "label": "scheduling"}
+{"text": "I cannot close today's visit because the verification screen freezes.", "label": "visit_verification"}
+{"text": "My supervisor approved the visit, yet its status is still unverified.", "label": "visit_verification"}
+{"text": "My mother has therapy at noon, so book the aide after two.", "label": "scheduling"}
+{"text": "I only need two hours of help tomorrow instead of four.", "label": "scheduling"}
+{"text": "I want to turn off automatic billing.", "label": "billing"}
+{"text": "Can my mother meet a potential caregiver before they are assigned?", "label": "caregiver_assignment"}
+{"text": "The bill is correct; please change next month's visit dates.", "label": "scheduling"}
+{"text": "Is it possible to request a particular caregiver by name?", "label": "caregiver_assignment"}
+{"text": "I worked the full visit, but the record shows only ten minutes.", "label": "visit_verification"}
+{"text": "We no longer need morning visits, only afternoons.", "label": "scheduling"}
+{"text": "Please keep our usual aide instead of assigning the new person.", "label": "caregiver_assignment"}
+{"text": "Please remove the extra appointment booked for Sunday.", "label": "scheduling"}
+{"text": "My usual caregiver is fine, but I need her to come later.", "label": "scheduling"}
+{"text": "Please mail our annual service summary.", "label": "document_request"}
+{"text": "My attendance entry is duplicated in the visit history.", "label": "visit_verification"}
+{"text": "Could you send the arrival time for tomorrow's visit in a message?", "label": "scheduling"}
+{"text": "Please correct my visit record to show that I left at four.", "label": "visit_verification"}
