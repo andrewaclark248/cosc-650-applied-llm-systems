@@ -11,3 +11,7 @@ I used ChatGPT to help explain concepts related to the forward pass and sampling
 ## Week 3
 
 I used ChatGPT for scaffolding and debugging the prompt evaluation workflow, including prompt versioning, response caching and rate-limit retry logic. Gemini was used as the model evaluated by the test suite. I created and ran the experiments, reviewed the exact-match and semantic-similarity measurements, and personally wrote the final analysis and conclusions.
+
+
+# Week 8
+I used ChatGPT to help scaffold the RAG data pipeline and LLM API calls, troubleshoot errors, and polish wording. I evaluated the results and wrote the analysis myself.
