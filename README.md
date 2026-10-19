@@ -10,8 +10,8 @@ This is an Applied LLM Systems course that covers tokenization, prompt engineeri
 
 * `week-01/` through `week-08/` — Weekly assignments, experiments, and notebooks.
 * `notes/` — Notes from course readings and other useful information.
-* `project/` — Code and documentation for the final project.
 * `CLAUDE.md` — Instructions and context for AI coding assistants.
+* `AGENTS.md` — Repository guidance for AI coding assistants and disclosure of AI assistance.
 * `README.md` — Overview of the course and repository.
 
 ## Technologies
@@ -26,9 +26,23 @@ This is an Applied LLM Systems course that covers tokenization, prompt engineeri
 Additional tools and libraries will be added as the course progresses.
 
 
+## Eight-Week Project Progression
+
+- **Week 1 — Tokenization:** Compared English and Spanish tokenization using two encodings, measuring differences in token counts, cost, and context-window usage.
+- **Week 2 — Inference and Sampling:** Traced a local model’s forward pass and explored how temperature, top-k, and top-p change next-token probabilities.
+- **Week 3 — Prompt Engineering:** Compared versioned software-incident classification prompts using exact-match accuracy and semantic similarity, documenting improvements and regressions.
+- **Week 4 — Tool Use:** Built a basketball assistant with player-stat lookup, player comparison, and a guarded calculator, including schema validation, multi-step tool calls, and failure recovery.
+- **Week 5 — RAG Foundations:** Built a Spring documentation RAG pipeline and compared three chunking strategies using Precision@3 and Recall@3.
+- **Week 6 — Advanced Retrieval:** Extended Week 5 with pseudo-relevance feedback and cross-encoder reranking. Mean Precision@4 increased from 0.825 to 0.850, with no additional improvement from reranking.
+- **Week 7 — Adaptation Decisions:** Compared zero-shot and dynamic few-shot classification for home-care requests. Accuracy increased from 94% to 98% on 50 synthetic test requests, followed by an analysis of complexity, failures, and whether fine-tuning was justified.
+- **Week 8 — Integrated Capstone:** Combined retrieval, grounded prompting, and adapted basketball tools into a Jordan–LeBron comparison system. Evaluated baseline and category-based retrieval using RAGAS and an LLM judge, then traced a retrieval failure and proposed mitigations.
+
+The repository progresses from understanding model inputs and generation to building, evaluating, and integrating LLM application components.
+
+
 # Caspstone
 
-# Jordan vs. LeBron: Integrated RAG System
+## Jordan vs. LeBron: Integrated RAG System
 
 This project compares Michael Jordan and LeBron James across 5 categories:
 defense, scoring, longevity, playoffs, and accolades using
